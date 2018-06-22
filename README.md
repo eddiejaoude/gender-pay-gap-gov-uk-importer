@@ -9,7 +9,7 @@ For example ElasticSearch `stats aggregation` https://www.elastic.co/guide/en/el
 - Install `node`
 - Install `elasticsearch` *(open source version)*
 - *[OPTIONAL] Download `kibana` (open source version)*
-- Clone this repo `git clone git@github.com:eddiejaoude/gender-pay-gap.git`
+- Clone this repo `git clone git@github.com:eddiejaoude/gender-pay-gap-gov-uk-importer.git`
 - Install dependencies `npm install`
 - Import CSV data to ElasticSearch `node index.js`
 - *[OPTIONAL] Run `kibana` (optional)*
@@ -70,3 +70,8 @@ ElasticSearch will be running on `localhost:9200` and if using Kibana IT will be
     }
 }
 ```
+
+
+## Example graphs from Kibana
+
+![Example](https://user-images.githubusercontent.com/624760/41760410-3777c1bc-75eb-11e8-9239-828812848d25.jpg)
